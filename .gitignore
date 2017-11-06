@@ -3,6 +3,8 @@
 *.log
 *.pdf
 *.toc
+*.out
+*.idx
 
 # Editor
 .*.swp

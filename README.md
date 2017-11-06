@@ -5,5 +5,7 @@
 ## 编译成pdf
 
 ```
-xlatex
+sudo pacman -S texlive-most texlive-lang
+make clean
+make
 ```

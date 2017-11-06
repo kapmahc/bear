@@ -1,13 +1,8 @@
 
 
-build: 
-	xelatex main.tex
-	xelatex main.tex
-
+build:
+	for i in `seq 3`; do xelatex book.tex; done
 
 
 clean:
-	-rm *.aux *.log *.pdf *.toc
-
-
-
+	-rm *.log *.pdf *.toc *.out *.idx *.aux

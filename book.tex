@@ -1,0 +1,28 @@
+\documentclass{book}
+\usepackage{ctex}
+\usepackage{float,xcolor}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{makeidx}
+\usepackage{cite}
+\usepackage{wasysym}
+\usepackage[colorlinks]{hyperref}
+\makeindex
+\begin{document}
+  \title{观澜札}
+  \author{半夏}
+  \date{\today}
+  \maketitle
+  \setcounter{tocdepth}{2}
+  \tableofcontents
+  \input{序言/toc.tex}
+  \part{儒家}
+  \part{释家}
+  \part{道家}
+  \part{中医}
+  \part{武术}
+  \part{术数}
+  \part{杂笔}
+  \input{资源/toc.tex}
+  \printindex
+\end{document}
