@@ -1,0 +1,9 @@
+# Tex
+*.aux
+*.log
+*.pdf
+*.toc
+
+# Editor
+.*.swp
+.*.un~
