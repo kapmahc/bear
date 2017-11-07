@@ -1,5 +1,5 @@
 \documentclass[UTF8]{book}
-\usepackage[fontset=adobe]{ctex}
+\usepackage[fontset=ubuntu]{ctex}
 \usepackage{float,xcolor}
 \usepackage{graphicx}
 \usepackage{multicol}
@@ -7,15 +7,8 @@
 \usepackage{cite}
 \usepackage{wasysym}
 \usepackage[colorlinks]{hyperref}
+\input{vars.tex}
 
-\newCJKfontfamily{\dejavusanszh}{DejaVu Sans} % this font has the required glyphs
-\newfontface{\dejavusans}{DejaVu Sans} % this font has the required glyphs
-\newcommand{\iching}[1]{{\dejavusanszh\char\numexpr"4DC0+#1}}
-\newcommand{\trigram}[1]{{\dejavusans\char\numexpr"2630+#1}}
-
-\setCJKmainfont[BoldFont=Adobe Heiti Std,ItalicFont=Adobe Kaiti Std]{Adobe Song Std}
-\setCJKsansfont{Adobe Heiti Std}
-\setCJKmonofont{Adobe Fangsong Std}
 \makeindex
 \begin{document}
   \title{观澜札}
