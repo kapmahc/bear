@@ -1,11 +1,55 @@
 \section{八卦}
 
-aaa \ldots bbb \char"4DC0 ccc
+\subsection{卦名}
+乾\trigram{0} 兑\trigram{1} 离\trigram{2} 震\trigram{3}
+巽\trigram{4} 坎\trigram{5} 艮\trigram{6} 坤\trigram{7}
 
-\trigram{0} \trigram{1} \trigram{2} \trigram{3}
-\trigram{4} \trigram{5} \trigram{6} \trigram{7}
-\iching{2}
-\iching{3}
-\iching{4}
-\iching{5}
-\iching{6}
+\paragraph{宋\quad 朱熹《周易本义》八卦取象歌}
+\begin{quote}
+        乾三连，坤六断；
+        震仰盂，艮覆碗；
+        離中虚，坎中满；
+        兌上缺，巽下断。
+\end{quote}
+
+
+\subsection{伏羲八卦方位图}
+\begin{pspicture}(10,10)
+\pspolygon(4,2)(6,2)(8,4)(8,6)(6,8)(4,8)(2,6)(2,4)
+\uput[u](5,7.9){乾\trigram{0}(1)}
+\uput[u](2.5,7){兑\trigram{1}(2)}
+\uput[u](1.2,4.5){离\trigram{2}(3)}
+\uput[u](2.3,2.5){震\trigram{3}(4)}
+\uput[u](5,1.3){坤\trigram{7}(8)}
+\uput[u](7.8,2.5){艮\trigram{6}(7)}
+\uput[u](8.8,4.5){坎\trigram{5}(6)}
+\uput[u](7.7,7){巽\trigram{4}(5)}
+\end{pspicture}
+
+\subsection{文王八卦方位图}
+\begin{pspicture}(10,10)
+\pspolygon(4,2)(6,2)(8,4)(8,6)(6,8)(4,8)(2,6)(2,4)
+\uput[u](5,7.9){离\trigram{2}(南)}
+\uput[u](2.5,7){巽\trigram{4}}
+\uput[u](1.2,4.5){震\trigram{3}(东)}
+\uput[u](2.3,2.5){艮\trigram{6}}
+\uput[u](5,1.3){坎\trigram{5}(北)}
+\uput[u](7.8,2.5){乾\trigram{0}}
+\uput[u](8.8,4.5){兑\trigram{1}(西)}
+\uput[u](7.7,7){坤\trigram{7}}
+\end{pspicture}
+
+\subsection{孔子太极生两仪四象八卦图}
+\begin{table}[H]
+  \centering
+  \caption[]{孔子太极生两仪四象八卦图}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline \multicolumn{8}{|c|}{两仪图} \\
+    \hline \multicolumn{4}{|c|}{阴仪\dejavusans\char"268B} & \multicolumn{4}{c|}{阳仪\dejavusans\char"268A} \\
+    \hline \multicolumn{8}{|c|}{四象图} \\
+    \hline \multicolumn{2}{|c|}{太阴\dejavusans\char"268F} & \multicolumn{2}{c|}{少阳\dejavusans\char"268E} & \multicolumn{2}{c|}{少阴\dejavusans\char"268D} & \multicolumn{2}{c|}{太阳\dejavusans\char"268C} \\
+    \hline \multicolumn{8}{|c|}{八卦图}\\
+    \hline 坤(八)\trigram{7} & 艮(七)\trigram{6} & 坎(六)\trigram{5} & 巽(五)\trigram{4} & 震(四)\trigram{3} & 离(三)\trigram{2} & 兑(二)\trigram{1} & 乾(一)\trigram{0} \\
+    \hline
+  \end{tabular}
+\end{table}
