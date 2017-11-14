@@ -5,4 +5,4 @@ build:
 
 
 clean:
-	-rm *.log *.pdf *.toc *.out *.idx *.aux
+	-rm *.log *.pdf *.toc *.out *.idx *.aux 
