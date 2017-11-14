@@ -9,3 +9,6 @@
 # Editor
 .*.swp
 .*.un~
+
+# Others
+/tmp
