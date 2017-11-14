@@ -1,0 +1,32 @@
+digraph G {
+  head [label="三无漏学"]
+  foot [label="三十七道品"]
+
+  leaf1 [label="信力\n信力"]
+  leaf2 [label="念根\n念力\n念觉支"]
+  leaf3 [label="精进觉支\n喜觉支\n正见\n正思维\n正精进\n正念"]
+  leaf4 [label="四念处\n四正勤\n进根\n慧根\n进力\n慧力\n择法觉支"]
+  leaf5 [label="四神足\n定根\n定力\n轻安觉支\n定觉支\n捨觉支\n正定"]
+  leaf6 [label="正语\n正业\n正命"]
+
+  head -> 慧;
+  慧 -> leaf1;
+  慧 -> leaf2;
+  慧 -> leaf3;
+  慧 -> leaf4;
+
+  head -> 定;
+  定 -> leaf1;
+  定 -> leaf5;
+
+  head -> 戒;
+  戒 -> leaf1;
+  戒 -> leaf6;
+
+  leaf1 -> foot;
+  leaf2 -> foot;
+  leaf3 -> foot;
+  leaf4 -> foot;
+  leaf5 -> foot;
+  leaf6 -> foot;
+}

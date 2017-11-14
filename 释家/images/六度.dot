@@ -1,0 +1,18 @@
+digraph G {
+  head [label="六度"]
+  leaf1 [label="行善止恶（戒）"]
+  leaf2 [label="不落善恶（定）"]
+  leaf3 [label="鉴定善恶（慧）"]
+  foot [label="三无漏学"]
+
+  head -> 布施 -> leaf1;
+  head -> 持戒 -> leaf1;
+  head -> 忍辱 -> leaf1;
+  head -> 精进 -> leaf1;
+  head -> 禅定 -> leaf2;
+  head -> 般若 -> leaf3;
+
+  leaf1 -> foot;
+  leaf2 -> foot;
+  leaf3 -> foot;
+}
