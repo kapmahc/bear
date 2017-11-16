@@ -1,0 +1,66 @@
+digraph G {
+  head [label="三世十二因缘"]
+  leaf11 [label="过去世"]
+  leaf12 [label="现在世"]
+  leaf13 [label="未来世"]
+  leaf21 [label="惑"]
+  leaf22 [label="业"]
+  leaf23 [label="苦"]
+  leaf31 [label="过去世的二因（集谛）"]
+  leaf32 [label="现在世的五果（苦谛）"]
+  leaf33 [label="现在世的三因（集谛）"]
+  leaf34 [label="未来世的二果（苦谛）"]
+  leaf41 [label="现在未来一重因果"]
+  leaf42 [label="过去现在一重因果"]
+  node01 [label="无明"]
+  node02 [label="行"]
+  node03 [label="识"]
+  node04 [label="名色"]
+  node05 [label="六入"]
+  node06 [label="触"]
+  node07 [label="受"]
+  node08 [label="爱"]
+  node09 [label="取"]
+  node10 [label="有"]
+  node11 [label="生"]
+  node12 [label="老死"]
+  foot [label="三世两重因果"]
+
+  head -> leaf11;
+  head -> leaf12;
+  head -> leaf13;
+
+  leaf11 -> node01 -> leaf21;
+  leaf11 -> node02 -> leaf22;
+  leaf12 -> node03 -> leaf23;
+  leaf12 -> node04 -> leaf23;
+  leaf12 -> node05 -> leaf23;
+  leaf12 -> node06 -> leaf23;
+  leaf12 -> node07 -> leaf23;
+  leaf12 -> node08 -> leaf21;
+  leaf12 -> node09 -> leaf21;
+  leaf12 -> node10 -> leaf22;
+  leaf13 -> node11 -> leaf23;
+  leaf13 -> node12 -> leaf23;
+
+  node01 -> leaf31;
+  node02 -> leaf31;
+  node03 -> leaf32;
+  node04 -> leaf32;
+  node05 -> leaf32;
+  node06 -> leaf32;
+  node07 -> leaf32;
+  node08 -> leaf33;
+  node09 -> leaf33;
+  node10 -> leaf33;
+  node11 -> leaf34;
+  node12 -> leaf23;
+
+  leaf31 -> leaf41;
+  leaf32 -> leaf41;
+  leaf33 -> leaf42;
+  leaf34 -> leaf42;
+
+  leaf41 -> foot;
+  leaf42 -> foot;
+}
