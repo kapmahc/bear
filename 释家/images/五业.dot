@@ -1,0 +1,18 @@
+digraph G {
+  head [label="业"]
+  leaf11 [label="思已业"]
+  leaf12 [label="思业"]
+  leaf21 [label="身业"]
+  leaf22 [label="语业"]
+  leaf23 [label="意业"]
+  
+  head -> leaf11;
+  leaf11 -> leaf21;
+  leaf11 -> leaf22;
+  leaf21 -> "身表业";
+  leaf21 -> "身无表业";
+  leaf22 -> "语表业";
+  leaf22 -> "语无表业";
+  head -> leaf12 -> leaf23 -> "意业";
+
+}

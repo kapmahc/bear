@@ -1,0 +1,16 @@
+digraph G {
+  root [label="一味的佛教"]
+  leaf11 [label="上坐部"]
+  leaf12 [label="大众部"]
+  leaf21 [label="上座系"]
+  leaf22 [label="分别说系"]
+  leaf23 [label="大众系"]
+
+  root -> leaf11;
+  leaf11 -> leaf21;
+  leaf21 -> "犊子部";
+  leaf21 -> "说一切有部";
+  leaf11 -> leaf22 -> "上座分别说部";
+
+  root -> leaf12 -> leaf23 -> "大众部";
+}
